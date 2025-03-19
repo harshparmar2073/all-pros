@@ -1,6 +1,4 @@
 import React from 'react'
-import SignupComponent from './components/Signup'
-import LoginComponent from './components/Login'
 import { Route, Routes } from 'react-router'
 import ForgotPassword from './components/ForgotPassword'
 import HomePage from './Pages/HomePage'
@@ -14,8 +12,6 @@ const App = () => {
     <div>
       <Routes>
         <Route path="/" element={<HomePage/>} />
-        <Route path="/login" element={<LoginComponent/>} />
-        <Route path="/signup" element={  <SignupComponent/>} />
         <Route path='/forgot-password' element={<ForgotPassword/>} />
         <Route path="/restaurant-login" element={<RestaurantLogin/>} />
         <Route path="/user-login" element={<UserLogin/>} />
