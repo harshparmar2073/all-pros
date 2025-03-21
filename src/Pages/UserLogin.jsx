@@ -50,7 +50,7 @@ const UserLogin = () => {
         setSnackbarMessage('Login successful! Redirecting...');
         setSnackbarOpen(true);
         setTimeout(() => {
-          navigate('/user-dashboard');
+          navigate('/verification');
         }, 1500);
       } else {
         setSnackbarMessage('Invalid credentials. Please try again.');

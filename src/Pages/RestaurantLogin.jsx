@@ -46,7 +46,7 @@ const RestaurantLogin = () => {
         setSnackbarMessage('Login successful! Redirecting...');
         setSnackbarOpen(true);
         setTimeout(() => {
-          navigate('/admin-dashboard');
+          navigate('/verification');
         }, 1500);
       } else {
         setSnackbarMessage('Invalid credentials. Please try again.');

@@ -6,6 +6,9 @@ import RestaurantLogin from './Pages/RestaurantLogin'
 import UserLogin from './Pages/UserLogin'
 import RestaurantSignup from './Pages/RestaurantSignup'
 import UserSignup from './Pages/UserSignup'
+import VerificationPage from './components/VerificationPage'
+import RestaurantDashboard from './Pages/Dashboard'
+import Jobs from './components/Jobs'
 
 const App = () => {
   return (
@@ -17,6 +20,9 @@ const App = () => {
         <Route path="/user-login" element={<UserLogin/>} />
         <Route path='/restaurant-signup' element={<RestaurantSignup/>} />
         <Route path='/user-signup'element={<UserSignup/>} />
+        <Route path='/verification' element={<VerificationPage/>} />
+        <Route path='/dashboard' element={<RestaurantDashboard/>} />
+        <Route path='/jobs' element={<Jobs/>} />
 
       </Routes>
       
